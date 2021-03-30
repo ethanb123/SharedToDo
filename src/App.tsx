@@ -20,6 +20,10 @@ function App() {
               <HomePage />
             </Route>
 
+            <Route path="/homepage">
+              <HomePage />
+            </Route>
+
           </Switch>
         </div>
       </Router>
