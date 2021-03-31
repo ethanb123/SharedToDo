@@ -1,9 +1,11 @@
 import React from "react"
 import { Form, FormGroup, Input, Label } from "reactstrap"
+import '../index.css'
+
 
 const ViewList = (props: any) => {
     return (
-        <div>
+        <div className="bodycss">
             <h1>View a List</h1>
             <Form>
                 <FormGroup>
@@ -13,6 +15,6 @@ const ViewList = (props: any) => {
             </Form> 
         </div>
     );
-  }
+}
   
 export default ViewList;
