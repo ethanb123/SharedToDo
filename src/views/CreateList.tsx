@@ -1,5 +1,5 @@
 import React from "react";
-import { Form, FormGroup, Input, Label } from "reactstrap";
+import { Button, Form, FormGroup, Input, Label } from "reactstrap";
 import '../index.css'
 
 const CreateList = (props: any) => {
@@ -12,6 +12,14 @@ const CreateList = (props: any) => {
                     <Input name="list" id="inputList" placeholder="Enter List Name" />
                 </FormGroup>
             </Form> 
+            <h2>Test Form</h2>
+            <Form>
+                <Label>Username</Label>
+                <Input type="text"/>
+                <Label> Passworld</Label>
+                <Input type="password"/>
+                <Button >Login</Button>
+            </Form>
         </div>
     );
 }
